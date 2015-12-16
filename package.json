@@ -5,7 +5,8 @@
   "main": "wunderline.js",
   "homepage": "http://www.wunderline.rocks",
   "bin": {
-    "wunderline": "./wunderline.js"
+    "wunderline": "./wunderline.js",
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -51,6 +52,7 @@
     "codeclimate-test-reporter": "^0.1.0",
     "istanbul": "^0.3.19",
     "standard": "^5.0.0",
-    "tape": "^4.0.0"
+    "tape": "^4.0.0",
+    "jasmine": "2.4.1"
   }
 }
